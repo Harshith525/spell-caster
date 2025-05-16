@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spell Caster</title>
+<style>
+  body {
+    background: #0f0f0f;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    margin: 1rem 0;
+  }
+  .spell-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+  }
+  .spell-card {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin: 8px;
+    width: 220px;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .spell-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .gesture-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #66ccff;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+  <h1>🪄 Spell Casting Web App - Spells & Gestures</h1>
+  <div class="spell-grid">
+
+    <!-- Spells List -->
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Accio</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Expelliarmus</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Petrificus Totalus</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Wingardium Leviosa</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Lumos</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Avada Kedavra</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Protego</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Stupefy</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Crucio</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Expecto Patronum</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Obliviate</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Aguamenti</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Aparecium</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Bombarda</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Confringo</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Diffindo</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Alohomora</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Reparo</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Nox</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Episkey</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Imperio</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Alarte Ascendare</h3></div></div>
+    <div class="spell-card"><div class="spell-header"><div class="gesture-icon"></div><h3>Ascendio</h3></div></div>
+
+  </div>
+</body>
+</html>
